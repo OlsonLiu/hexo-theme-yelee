@@ -92,7 +92,7 @@ if ( is_archive() ) {
 <% } %>
 
 <% if (theme.root_url){ %>
-    <script> yiliaConfig.rootUrl = <%=theme.root_url%>; </script>
+    <script> yiliaConfig.rootUrl = '<%=theme.root_url%>'; </script>
 <% } else {%>
     <script> yiliaConfig.rootUrl = "\/";</script>
 <% } %>
